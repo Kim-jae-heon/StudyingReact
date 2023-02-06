@@ -1,0 +1,39 @@
+.container {
+  width: 270px; height: 293px;
+}
+
+.total {
+  text-align: center; background-color: #00ff00;
+}
+
+.counter {
+  background-color: bisque; width: 200px; height: 100px; 
+  flex-direction: column; display: flex; align-items: center;
+  border-radius: 1rem; margin: 2rem; border: 2px solid rgb(215, 127, 12);
+}
+
+.counter:hover {
+  background-color: rgb(246, 243, 197);
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(215, 127, 12);
+  background: linear-gradient(270deg,#ff0000 0%, #00ff00 80%);
+  background: -webkit-linear-gradient(270deg,#ff0000 0%, #00ff00 80%);
+  background: -moz-linear-gradient(270deg,#ff0000 0%, #00ff00 80%);
+  transition-duration: 0.3s;
+  box-shadow: 1px 1px 1px black;
+}
+
+.button:active {
+  margin-left: 1px; margin-top: 1px;
+  box-shadow: none;
+}
